@@ -2,6 +2,8 @@
          <div className="relative">
 -          <div className="flex overflow-hidden">
 -            <div className="flex animate-marquee whitespace-nowrap">
+          <div className="flex overflow-hidden mask-gradient">
+            <div className="flex animate-marquee whitespace-nowrap min-w-full">
 +          <div className="flex overflow-hidden mask-gradient">
 +            <div className="flex animate-marquee whitespace-nowrap min-w-full">
               {clients.map((client, index) => (

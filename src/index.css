@@ -2,6 +2,11 @@
  .animate-marquee2 {
    animation: marquee2 25s linear infinite;
  }
+.mask-gradient {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
  
 +.mask-gradient {
 +  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);

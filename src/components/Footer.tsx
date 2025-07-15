@@ -4,15 +4,9 @@ const Footer = () => {
     name: "About Us",
     href: "#about"
   }, {
-    name: "Contact",
-    href: "#contact"
-  }];
-  return (
-    <footer className="relative z-10 bg-black/20 border-t border-white/10 pt-16">
-      <div className="container section-spacing">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
         </div>
       </div>
     </footer>
-  );
+    <footer className="relative z-10 bg-black/20 border-t border-white/10 pt-16">
 };
