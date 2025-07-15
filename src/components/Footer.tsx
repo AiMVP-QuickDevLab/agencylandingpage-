@@ -9,4 +9,6 @@ const Footer = () => {
       </div>
     </footer>
     <footer className="relative z-10 bg-black/20 border-t border-white/10 pt-16">
-};
+  };
+  ]
+}
